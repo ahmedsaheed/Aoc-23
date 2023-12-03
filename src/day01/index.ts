@@ -1,7 +1,6 @@
 import run from "aocrunner"
-import fs from "fs"
 
-const parseInput = (rawInput: string) => fs.readFileSync("/Users/ahmedsaheed/Personal/git-repositories/Aoc-23/aoc2023/src/day01/input.txt", "utf8").split("\n");
+const parseInput = (rawInput: string) => rawInput.split("\n");
 const parseInput2 = (rawInput: string) => rawInput
 
 function concatFirstAndLastIntValuesFromString(input: string): number {
